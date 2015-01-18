@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="persistencia2.persistencia.campitos.persistencia2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".PersistenciaInicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppPreferenceActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="persistencia2.persistencia.campitos.persistencia2.AppPreferenceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActividadRegistrado"
+            android:label="@string/title_activity_actividad_registrado" >
+        </activity>
+    </application>
+
+</manifest>
