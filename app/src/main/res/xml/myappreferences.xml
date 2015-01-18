@@ -7,11 +7,11 @@
             android:summary="True or False"
             android:title="Checkbox" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Category 2" >
+    <PreferenceCategory android:title="Datos personales" >
         <EditTextPreference
             android:defaultValue="Mete el valor"
             android:key="editTextPref"
-            android:summary="Enter a string"
+            android:summary="Mete tu nombre"
             android:textColor="@color/DarkBlue"
             android:title="Mete tu nombre" />
         <RingtonePreference
@@ -21,14 +21,14 @@
         <PreferenceScreen
             android:key="secondPrefScreenPref"
             android:summary="Click here to go to the second Preference Screen"
-            android:title="Second Preference Screen" >
+            android:title="Datos de direccion" >
             <EditTextPreference
                 android:key="secondEditTextPref"
-                android:summary="Enter a string"
-                android:title="Edit Text (second Screen)" />
-            <Preference android:title="Acts like a button"
+                android:summary="Mete tu calle"
+                android:title="Tu telefono (segunda pantalla)" />
+            <Preference android:title="Este actua como boton"
                 android:key="button"
-                android:summary="This will act like a button"/>
+                android:summary="Este actuara como boton"/>
         </PreferenceScreen>
     </PreferenceCategory>
 </PreferenceScreen>
