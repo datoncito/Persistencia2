@@ -1,6 +1,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="NotifSettings" android:title="Notification Settings">
-    <PreferenceCategory android:title="Category 1">
+    <PreferenceCategory android:title="Pantalla de registro">
         <CheckBoxPreference
             android:defaultValue="false"
             android:key="checkboxPref"
